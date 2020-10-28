@@ -5,6 +5,8 @@
 .card__design {
     background-color: black !important;
     border-radius: 3% !important;
+    margin: 4% 0;
+
 }
 .card__design:hover {
     box-shadow: 0 0 11px rgb(134, 5, 5);

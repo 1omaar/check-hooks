@@ -1,6 +1,8 @@
 .nav-design {
     display: flex !important;
     justify-content: space-between !important;
+    position: fixed !important;
+    width: 100% !important;
 }
 .FilterRate-design {
     width: 10%;
@@ -10,5 +12,6 @@
     color: red;
     font-family: 'Henny Penny', cursive !important;
     text-align: center;
-    padding: 2% 0 !important;
+   padding-top:5% !important;
+   padding-bottom: 2%!important;
 }

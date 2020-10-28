@@ -35,7 +35,7 @@ function AddMovie({ update }) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className='ml-3 mt-3'>
+      <Button variant="primary" onClick={handleShow} className='add-design'>
         Add Movie
       </Button>
 

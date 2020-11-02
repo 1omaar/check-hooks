@@ -1,6 +1,7 @@
 .div__design {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .card__design {
     background-color: black !important;

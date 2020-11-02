@@ -14,14 +14,14 @@ const MovieCard = ({movie: {image, title, descrpt, link, rate } }) => {
                 </Card.Text>
                 <div className='div__design'>
                     <Button variant="outline-dark"><Link to={{pathname:`/Trailer/${title}`,
-              state:{
-                  title:title,
-                  description:descrpt,
-                  lien:link
-              }
-                
-               } }   style={{color:'white'}}>See the Trailer</Link></Button>
-                    <Rating name="read-only" value={rate}  readOnly/>
+                            state:{
+                                title:title,
+                                description:descrpt,
+                                lien:link
+                            }
+                                } 
+              }   style={{color:'white'}}>See the Trailer</Link></Button>
+                    <Rating name="read-only" value={rate} style={{marginTop:'7%'}} readOnly/>
                 </div>
 
             </Card.Body>

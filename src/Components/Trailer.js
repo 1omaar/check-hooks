@@ -8,7 +8,7 @@ function Trailer(props) {
         <div className='trailer-design'>
             <h1 className='title-design'>{props.location.state.title} Trailer</h1>
             <div className='container-design'>
-                <iframe src={props.location.state.lien}></iframe>
+                <iframe src={props.location.state.lien} allowFullScreen></iframe>
                 <h4 className='description-design'>Description: {props.location.state.description}</h4>
                 <Button variant="light" onClick={() => history.push('/')}>Go to MovieList</Button>
             </div>
